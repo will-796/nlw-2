@@ -32,10 +32,6 @@ html, body, #root {
 
 }
 
-body{
-    background: var(--color-background);
-}
-
 #root{
     display: flex;
     align-items: center;
@@ -47,8 +43,7 @@ input,
 button,
 textarea{
     font: 500 1.6rem poppins;
-    
-
+    color: var(--color-text-base);
 } 
 
 .container {
